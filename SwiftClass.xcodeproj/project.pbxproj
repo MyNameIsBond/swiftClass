@@ -14,6 +14,7 @@
 		9785570B29A92ECA009B5FD3 /* SwiftClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785570A29A92ECA009B5FD3 /* SwiftClassTests.swift */; };
 		9785571529A92ECA009B5FD3 /* SwiftClassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785571429A92ECA009B5FD3 /* SwiftClassUITests.swift */; };
 		9785571729A92ECA009B5FD3 /* SwiftClassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785571629A92ECA009B5FD3 /* SwiftClassUITestsLaunchTests.swift */; };
+		9785572429A975B9009B5FD3 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785572329A975B9009B5FD3 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9785571029A92ECA009B5FD3 /* SwiftClassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftClassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9785571429A92ECA009B5FD3 /* SwiftClassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClassUITests.swift; sourceTree = "<group>"; };
 		9785571629A92ECA009B5FD3 /* SwiftClassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9785572329A975B9009B5FD3 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				978556FC29A92ECA009B5FD3 /* Assets.xcassets */,
 				9785570129A92ECA009B5FD3 /* SwiftClass.entitlements */,
 				978556FE29A92ECA009B5FD3 /* Preview Content */,
+				9785572329A975B9009B5FD3 /* Car.swift */,
 			);
 			path = SwiftClass;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				978556FB29A92EC9009B5FD3 /* ContentView.swift in Sources */,
 				978556F929A92EC9009B5FD3 /* SwiftClassApp.swift in Sources */,
+				9785572429A975B9009B5FD3 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
