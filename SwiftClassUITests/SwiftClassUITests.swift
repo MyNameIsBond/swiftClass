@@ -1,9 +1,3 @@
-//
-//  SwiftClassUITests.swift
-//  SwiftClassUITests
-//
-//  Created by Tony Chaidinis on 24/02/2023.
-//
 
 import XCTest
 

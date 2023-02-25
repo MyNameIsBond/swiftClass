@@ -20,13 +20,13 @@ struct People: View {
       // Athlete Check
       myAthlete.train()
       print(myAthlete.performance)
-    
+      
     }
   }
 }
 
 struct People_Previews: PreviewProvider {
-
+  
   static var previews: some View {
     People()
   }
