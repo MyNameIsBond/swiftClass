@@ -1,7 +1,7 @@
 
 import SwiftUI
 
-class Car {
+class MyCar {
   var make: String
   var model: String
   var year: Int
@@ -17,7 +17,7 @@ class Car {
   }
 }
 
-class ElectricCar: Car {
+class ElectricCar: MyCar {
   var range: Int
   
   init(make: String, model: String, year: Int, range: Int) {
@@ -29,6 +29,14 @@ class ElectricCar: Car {
     print("starting electric engine...")
   }
   
+}
+
+class TeslaModelS: ElectricCar {
+  var autoPilotEnabled: Bool
+  
+  init(autoPilotEnabled: Bool) {
+    self.autoPilotEnabled = autoPilotEnabled
+  }
 }
 
 struct Car: View {
