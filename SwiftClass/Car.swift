@@ -12,8 +12,8 @@ class MyCar {
     self.year = year
   }
   
-  func startEngine() {
-    print("starting engine...")
+  func startEngine() -> String {
+    return "starting engine..."
   }
 }
 
@@ -25,8 +25,8 @@ class ElectricCar: MyCar {
     super.init(make: make, model: model, year: year)
   }
   
-  override func startEngine() {
-    print("starting electric engine...")
+  override func startEngine() -> String {
+    return "starting electric engine..."
   }
   
 }
@@ -34,14 +34,24 @@ class ElectricCar: MyCar {
 class TeslaModelS: ElectricCar {
   var autoPilotEnabled: Bool
   
-  init(autoPilotEnabled: Bool) {
+  init(make: String, model: String, year: Int, range: Int,  autoPilotEnabled: Bool) {
     self.autoPilotEnabled = autoPilotEnabled
+    super.init(make: make, model: model, year: year, range: range)
+  }
+  
+  override func startEngine() -> String {
+    return "starting Tesla electric engine..."
   }
 }
 
 struct Car: View {
+  @State var myNewCar: MyCar = MyCar(make: "Volve", model: "sudan", year: 1990)
+  @State var myElectricCar: ElectricCar = ElectricCar(make: "Wolvagen", model: "Polo", year: 2022, range: 13)
+  @State var teslaModel: TeslaModelS = TeslaModelS(make: "Tesla", model: "Model S", year: 2022, range: 15, autoPilotEnabled: true)
   var body: some View {
-    Text("Car")
+    Text(myNewCar.startEngine())
+    Text(myElectricCar.startEngine())
+    Text(teslaModel.startEngine())
   }
 }
 
