@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		970F0FE629AA8E6D00C459B7 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970F0FE529AA8E6D00C459B7 /* People.swift */; };
 		970F0FE929AA930A00C459B7 /* Peoples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970F0FE829AA930A00C459B7 /* Peoples.swift */; };
+		972B3F9529ABB18B00C13FF0 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B3F9429ABB18B00C13FF0 /* Shapes.swift */; };
+		972B3F9729ABB19B00C13FF0 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B3F9629ABB19B00C13FF0 /* Shape.swift */; };
 		978556F929A92EC9009B5FD3 /* SwiftClassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978556F829A92EC9009B5FD3 /* SwiftClassApp.swift */; };
 		978556FB29A92EC9009B5FD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978556FA29A92EC9009B5FD3 /* ContentView.swift */; };
 		978556FD29A92ECA009B5FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978556FC29A92ECA009B5FD3 /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 /* Begin PBXFileReference section */
 		970F0FE529AA8E6D00C459B7 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		970F0FE829AA930A00C459B7 /* Peoples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peoples.swift; sourceTree = "<group>"; };
+		972B3F9429ABB18B00C13FF0 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		972B3F9629ABB19B00C13FF0 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		978556F529A92EC9009B5FD3 /* SwiftClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		978556F829A92EC9009B5FD3 /* SwiftClassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClassApp.swift; sourceTree = "<group>"; };
 		978556FA29A92EC9009B5FD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +91,15 @@
 			path = People;
 			sourceTree = "<group>";
 		};
+		972B3F9329ABB16300C13FF0 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				972B3F9429ABB18B00C13FF0 /* Shapes.swift */,
+				972B3F9629ABB19B00C13FF0 /* Shape.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
 		978556EC29A92EC9009B5FD3 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +123,7 @@
 		978556F729A92EC9009B5FD3 /* SwiftClass */ = {
 			isa = PBXGroup;
 			children = (
+				972B3F9329ABB16300C13FF0 /* Shapes */,
 				970F0FE729AA92DA00C459B7 /* People */,
 				978556F829A92EC9009B5FD3 /* SwiftClassApp.swift */,
 				978556FA29A92EC9009B5FD3 /* ContentView.swift */,
@@ -279,8 +293,10 @@
 				970F0FE929AA930A00C459B7 /* Peoples.swift in Sources */,
 				970F0FE629AA8E6D00C459B7 /* People.swift in Sources */,
 				978556FB29A92EC9009B5FD3 /* ContentView.swift in Sources */,
+				972B3F9729ABB19B00C13FF0 /* Shape.swift in Sources */,
 				978556F929A92EC9009B5FD3 /* SwiftClassApp.swift in Sources */,
 				9785572429A975B9009B5FD3 /* Car.swift in Sources */,
+				972B3F9529ABB18B00C13FF0 /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
