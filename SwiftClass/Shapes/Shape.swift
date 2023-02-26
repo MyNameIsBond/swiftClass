@@ -10,12 +10,7 @@ struct Rectangle: Shape {
   var perimeter: Int
   let height: Int
   let width: Int
-  
-  var area: {
-    
-  }
-  
-  func area() -> Int {
+  var area: Int {
     return height * width
   }
 }
