@@ -2,15 +2,15 @@
 import Foundation
 
 protocol Shape {
-  var area: Int { get set }
-  var perimeter: Int { get set}
+  var perimeter: Int { get set }
+  func area() -> Int
 }
 
 struct Rectangle: Shape {
   var perimeter: Int
   let height: Int
   let width: Int
-  var area: Int {
+  func area() ->  Int {
     return height * width
   }
 }
