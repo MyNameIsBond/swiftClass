@@ -4,7 +4,8 @@ import SwiftUI
 struct ContentView: View {
   var body: some View {
     //    Car()
-    People()
+    //    People()
+    Shapes()
   }
 }
 
@@ -13,3 +14,4 @@ struct ContentView_Previews: PreviewProvider {
     ContentView()
   }
 }
+

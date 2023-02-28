@@ -6,7 +6,19 @@ protocol Shape {
   var perimeter: Double { get }
 }
 
-struct Rectangle: Shape {
+protocol Drawable {
+  func drowTheShape()
+}
+
+protocol EquatableShape {
+  var isEqualTo: Bool { get }
+}
+
+struct Rectangle: Shape, Drawable {
+  func drowTheShape() {
+    print("Rectangle")
+  }
+  
   let height: Int
   let width: Int
   
@@ -19,7 +31,11 @@ struct Rectangle: Shape {
   }
 }
 
-struct Circle: Shape {
+struct Circle: Shape, Drawable {
+  func drowTheShape() {
+    print("Draw Circle")
+  }
+  
   let radius: Double
   var perimeter: Double
   var area: Double {
